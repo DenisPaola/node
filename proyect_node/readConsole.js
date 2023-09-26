@@ -9,21 +9,21 @@ function ReadConsole(callback){
     rl.question('what is your age?', (age) =>{
     persona.age = age;
 
-    rl.question('what is your name?', (name) =>{
+        rl.question('what is your name?', (name) =>{
         persona.name = name;
 
-        rl.question('what is your surname?', (surname) =>{
-           persona.surname = surname;
+            rl.question('what is your surname?', (surname) =>{
+            persona.surname = surname;
            
-           rl.close();
+            rl.close();
 
-           callback(persona);
+            callback(persona);
+
+            })
 
         })
 
     })
-
-})
 
 }
 
