@@ -1,0 +1,11 @@
+<div *ngIf="arrayBooks.length === 0">No hay libros</div>
+
+<div class="container d-flex justify-content-center">
+    <div class="input-group input-group-sm mb-3 custom-input-group">
+      <input class="form-control" type="text" placeholder="Buscar por ID de libro" (input)="onSearchInput()" style="padding: 0.5rem;">
+    </div>
+</div>
+
+<div class="container-books" *ngIf="arrayBooks.length > 0">
+    <app-card *ngFor="let book of arrayBooks; let index= index" [book]="book" [index]="index" (eventRemoveBook)="removeBook($event)"></app-card>
+</div>

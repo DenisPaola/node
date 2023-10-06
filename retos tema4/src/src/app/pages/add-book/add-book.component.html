@@ -1,0 +1,28 @@
+<div class="alert alert-success" role="alert" *ngIf="bookAdded">
+  Libro añadido correctamente
+</div>
+<div class="card">
+    <div class="card-body form_books">
+      <h2>Regístrate</h2>
+      <div class="form-group">
+        <input type="number" class
+        ="form-control" placeholder="Id book" #idbook>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Title" #title>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Type" #type>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Author" #author>
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control" placeholder="Price" #price>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Photo" #photo>
+      </div>
+      <button class="btn btn-primary btn-add-book" (click)="addBook(idbook, title, type, author, price, photo)">Agregar Libro</button>
+    </div>
+  </div>  

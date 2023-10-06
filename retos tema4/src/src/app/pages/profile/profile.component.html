@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="photo">
+        <div class="imag">
+            <img *ngIf="user" src="{{user.photo}}" alt="imagen perfil">
+            <img *ngIf="!user" src="/assets/img/perfil.jpg" alt="imagen perfil">
+        </div>
+        <div class="nameuser">{{user?.name}} {{user?.last_name}}</div>
+        <div class="form">
+            <div class="container-info">
+                <label>Nombre</label>
+                <div class="infodato"> {{user?.name}}</div>
+            </div>
+            <div class="container-info">
+                <label>Apellido</label>
+                <div class="infodato"> {{user?.last_name}}</div>
+            </div>
+            <div class="container-info">
+                <label>Correo</label>
+                <div class="infodato"> {{user?.email}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-data">
+        <br><br>
+        <h2>Modificar datos</h2>
+        <br>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" class="campo" #nombre>
+        <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido" class="campo" #apellido>
+        <input class="controls" type="text" name="correo" id="correo" placeholder="Correo" class="campo" #correo>
+        <input class="controls" type="text" name="url" id="url" placeholder="URL" class="campo" #url>
+        <input class="btn-registrarse" type="button" value="Modificar" (click)="modificar(nombre, apellido, correo, url)">
+    </div>
+</div>
+
+
+
