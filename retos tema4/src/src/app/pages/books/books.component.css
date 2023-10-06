@@ -1,0 +1,17 @@
+.container-books{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form_books{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo{
+    width: 150px;
+    margin-top: 15px;
+}

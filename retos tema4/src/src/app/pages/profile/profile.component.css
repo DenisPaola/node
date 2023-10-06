@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.photo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img{
+    width:100px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nameuser{
+    height: 30px;
+}
+
+.container-info label{
+    padding-right: 20px;
+    width: 100px;
+    line-height: 40px;
+}
+
+.form-data{
+    width: 50%;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 500px;
+}
+
+.form-data input {
+    width:200px;
+    background: red;
+    padding: 10px;
+    margin-top: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.form-data input button{
+    background-color: #1f53c5;
+}
+
+
+.infodato{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 35px;
+}

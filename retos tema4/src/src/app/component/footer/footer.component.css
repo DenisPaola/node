@@ -1,0 +1,16 @@
+*{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: greenyellow;
+}
+
+.footer a{
+    font-family: candara, 'tahoma', Impact, 'arial Narrow';
+    display: inline-block;
+    line-height: 70px;
+    color:gray;
+    font-size:17px;
+}

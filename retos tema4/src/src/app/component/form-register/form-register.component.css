@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    height: 500px;
+    
+}
+.form_registro{
+    width:400px;
+    height: 450px;
+    background:#24303c;
+    padding: 30px;
+    margin: 5px;
+    margin-top: 25px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-align: center;
+
+}
+
+.form-registro h2{
+    font-size:22px;
+    margin-top: 20px;
+}
+
+input{
+    width:200px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px solid red;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    text-align: center; 
+}
+
+.btn-registrarse:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-registrarse{
+    width: 55%;
+    background-color: #1f53c5;
+    border:none;
+    padding:18px;
+    color:black;
+    margin:16px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block-end: 20px;
+    
+}

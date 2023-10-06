@@ -1,0 +1,44 @@
+*{
+    display:flex;
+    justify-content: right;
+    font-family: Candara;
+    text-decoration:none;
+    color: white;
+}
+
+.navbar{ 
+    
+    background-color: rgb(2, 141, 2);    
+}
+
+
+.navbar ul{
+  margin:0%;
+ }
+
+ .navbar li h2{
+    color: white;
+    cursor:pointer;
+ }
+
+
+ .navbar li a{
+    
+    line-height: 50px;
+    margin: 0 20px;
+    font-size: x-large; 
+    display: inline-block; 
+ }
+
+ .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-right{
+    width: 75%;
+}
+
+.menu-left{
+    width: 25%;
+}
